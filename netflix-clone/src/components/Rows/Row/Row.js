@@ -50,7 +50,7 @@ const Row = ({title, fetchUrl, isLargeRow}) => {
   return (
     <div className="row">
       <h1>{title}</h1>
-      <div className="row_posters">
+      <div className="row__posters">
         {movies?.map((movie, index) => (
           <img
             onClick={() => handleClick(movie)}
